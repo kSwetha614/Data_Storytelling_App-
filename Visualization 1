@@ -1,0 +1,12 @@
+type_count = df["type"].value_counts().reset_index()
+
+type_count.columns = ["Type", "Count"]
+
+fig = px.pie(
+    type_count,
+    names="Type",
+    values="Count",
+    title="Movies vs TV Shows"
+)
+
+st.plotly_chart(fig)
