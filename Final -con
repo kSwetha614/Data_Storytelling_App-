@@ -1,0 +1,10 @@
+st.header("✅ Final Conclusion")
+
+st.write("""
+Netflix has expanded significantly over the years with a strong focus on movies and international content.
+
+The platform mainly targets mature audiences through TV-MA and TV-14 content ratings.
+
+Recommendation:
+Netflix can further expand family-friendly and regional content for broader audience engagement.
+""")
