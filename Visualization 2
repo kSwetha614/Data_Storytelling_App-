@@ -1,0 +1,12 @@
+content_year = df["release_year"].value_counts().reset_index()
+
+content_year.columns = ["Year", "Count"]
+
+fig = px.line(
+    content_year,
+    x="Year",
+    y="Count",
+    title="Content Released Over Years"
+)
+
+st.plotly_chart(fig)
