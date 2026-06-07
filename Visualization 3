@@ -1,0 +1,12 @@
+country_count = df["country"].value_counts().head(10).reset_index()
+
+country_count.columns = ["Country", "Count"]
+
+fig = px.bar(
+    country_count,
+    x="Country",
+    y="Count",
+    title="Top 10 Countries Producing Netflix Content"
+)
+
+st.plotly_chart(fig)
