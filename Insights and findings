@@ -1,0 +1,15 @@
+st.header("🔍 Insights and Findings")
+
+st.write("""
+### Key Findings
+
+1. Netflix contains more Movies than TV Shows.
+
+2. Content production increased rapidly after 2015.
+
+3. United States contributes the highest content.
+
+4. TV-MA and TV-14 are the most common ratings.
+
+5. Drama and International Movies are popular genres.
+""")
